@@ -1,2 +1,2 @@
-# Horiseo
-Horiseo Project
+# Horiseon
+Horiseon Project
