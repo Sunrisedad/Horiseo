@@ -1,10 +1,8 @@
-# Horiseon Marketing Solutions Refactor
+# horiseon-accessibility-code-refactor
 
-## This is the first challenge
+## Refactor of the Horiseon web page to follow accessibility standards and optimize for search engines.
 
-## The goal is to refactor the website for better viewability/accessiblity
-
-## User Story:
+## User Story
 
 ```
 AS A marketing agency
@@ -12,7 +10,7 @@ I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
 
-## Acceptance Criteria for challenge:
+## Acceptance Criteria
 
 ```
 GIVEN a webpage meets accessibility standards
@@ -28,19 +26,22 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-## I added the following changes:
+## Changes made
 
-- I updated the title to reflect the website better
-- Added semantic tags: header, nav, section, article, aside, footer
-- Changed h3 tags to h2 tags in aside to fix importance and restyled to make the font smaller
-- Added alt text for images
-- CSS selectors and properties were consolidated and organized to follow semantic structure
-- Matched structure of CSS to HTML 
-- Fixed missing id tag to make menu link work 
-- Added comments for HTML/CSS for better readability
+- added a more descriptive title
+- added semantic tags (header, nav, section, article, aside, footer)
+- changed h3 tags to h2 tags in aside to fix hierarchy and restyled to make the font smaller
+- added alt text for images
+- consolidated repetitive css and made selectors more specific
+- re-organized css to better match sections in html
+- fixed missing id to make menu link work correctly
+- commented HTML and CSS for readability and clarity
 
 
+## Screenshot
+
+![HoriseonScreen](https://user-images.githubusercontent.com/16748389/85058961-de2a7780-b170-11ea-9607-506f1524d142.jpeg)
 
 ## Deployed page
 
-
+Page published at: https://tiffany-brand.github.io/horiseon-accessibility-code-refactor/
